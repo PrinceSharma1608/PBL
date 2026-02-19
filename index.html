@@ -111,9 +111,8 @@ There is a need for a unified, deployable, and vendor-agnostic security layer th
   <li>Includes normal user behavior traffic and synthetically generated attack traffic (e.g., injection attempts, brute-force patterns, abnormal access frequency).</li>
   <li><strong>Data Size:</strong> Configurable dataset size; initial prototype trained on thousands of request samples to model baseline behavior.</li>
   <li><strong>Input Features:</strong> IP address patterns, request frequency, endpoint accessed, HTTP method, payload size, headers, response codes, session duration.</li>
-  <li><strong>Preprocessing:</strong> Log parsing, feature encoding (categorical to numeric), normalization of numerical attributes, session grouping.</li>
-  <li>Removal of redundant fields and noise filtering to reduce false positives.</li>
-  <li>Feature scaling applied before training ML models for consistent anomaly detection performance.</li>
+  <li><strong>Preprocessing:</strong> Log parsing session grouping.</li>
+
 </ul>
 
                 </div>
